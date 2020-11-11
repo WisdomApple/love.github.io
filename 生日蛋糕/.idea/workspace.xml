@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bc10654-5f0f-40b0-879c-753fc2e215b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ao1ropzpRa4fER7jolc4wzXJ2A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/1.css" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/生日蛋糕/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bc10654-5f0f-40b0-879c-753fc2e215b2" name="Default Changelist" comment="" />
+      <created>1587387333702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587387333702</updated>
+      <workItem from="1587387334830" duration="20000" />
+      <workItem from="1587387430127" duration="44000" />
+      <workItem from="1587387496926" duration="843000" />
+      <workItem from="1587388791891" duration="2744000" />
+      <workItem from="1587392836323" duration="148000" />
+      <workItem from="1588040611886" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587390194188">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="447" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1587390194188" />
+    <state x="294" y="181" width="836" height="536" key="DiffContextDialog" timestamp="1587390912513">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="294" y="181" width="836" height="536" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1587390912513" />
+    <state x="726" y="146" key="FileChooserDialogImpl" timestamp="1587390805707">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="726" y="146" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587390805707" />
+    <state x="469" y="32" key="SettingsEditor" timestamp="1587392873894">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="469" y="32" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1587392873894" />
+  </component>
+</project>
