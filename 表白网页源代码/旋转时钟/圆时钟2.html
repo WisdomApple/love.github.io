@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>圆时钟-获取本地时间</title>
+<style>
+.clock{
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    background:url(img/box.png) no-repeat;  /*钟表外框的img*/
+    position: relative;
+}
+.clock div{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.h{
+    background: url(img/shi.png)no-repeat center center;  /*时针的img*/
+}
+.m{
+    background: url(img/fen.png)no-repeat center center;  /* 分针的img*/
+}
+.s{
+    background: url(img/miao.png)no-repeat center center;   /*秒针的img*/
+}
+</style>
+</head>
+<body>
+		<div class="clock" id="clo">      <!-- 父级盒子，把h,m,s放在里面 -->
+            <div class="h"></div>         
+            <div class="m"></div>
+            <div class="s"></div>         <!-- 三个子级小盒子 -->
+        </div>
+</body>
+</html>
+<script type="text/javascript">
+    var clock = document.getElementById("clo");
+    var h = 0, m = 0 , s =0, ms = 0;         //开始把时，分，秒，毫秒数值全部重置为0
+    setInterval(function() {
+        var date = new Date();               //获取当前本地时间
+        ms = date.getMilliseconds();         //毫秒数计算
+        s = date.getSeconds()+ms/1000;       //秒数计算
+        m = date.getMinutes()+s/60;          //分钟数计算
+        h = date.getHours()%12+m/60;         //小时数数计算
+
+        clock.children[0].style.WebkitTransform = "rotate("+h*30+"deg)";    //时针的旋转的度数计算
+        clock.children[1].style.WebkitTransform = "rotate("+m*6+"deg)";     //分针的旋转的度数计算
+        clock.children[2].style.WebkitTransform = "rotate("+s*6+"deg)";     //秒针的旋转的度数计算
+    },10);    //指针旋转的转速
+</script>
